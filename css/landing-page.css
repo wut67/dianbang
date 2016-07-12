@@ -35,13 +35,19 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(../img/menpai.jpg) no-repeat center center;
+    background-size: auto 100%;
+    margin-top: 50px;
+}
+
+.intro-header::before{
+    content: "";
+    display: block;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 40%;
     padding-bottom: 20%;
 }
 
